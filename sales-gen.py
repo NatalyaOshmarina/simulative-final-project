@@ -5,6 +5,7 @@ import pandas as pd
 
 from generator import *
 
+dirname = os.path.dirname(__file__)
 folder = os.path.join(dirname, 'data')
 # Создаем папку для чеков и продаж (если не существует)
 os.makedirs(folder, exist_ok=True)
