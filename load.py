@@ -10,7 +10,7 @@ dirname = os.path.dirname(__file__)
 config = configparser.ConfigParser()
 config.read(os.path.join(dirname, 'config.ini'), encoding='utf-8')
 path = config['Paths']['SALES_PATH']
-SALES_PATH = os.path.join(dirname, raw_path) # определяем абсолютный путь
+SALES_PATH = os.path.join(dirname, path) # определяем абсолютный путь
 
 database = Database()
 
