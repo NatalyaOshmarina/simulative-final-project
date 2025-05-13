@@ -1,0 +1,10 @@
+CREATE TABLE sales (
+	id serial primary key,
+	ymd date NULL,
+	doc_id varchar NULL,
+	item varchar NULL,
+	category varchar NULL,
+	amount int NULL,
+	price numeric NULL,
+	discount int NULL
+);
